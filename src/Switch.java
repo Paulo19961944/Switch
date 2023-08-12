@@ -1,41 +1,39 @@
 public class Switch {
     public static void main(String[] args) {
         /** Variáveis */
-        String[] dias = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
-            /** Switch Case */
-            switch (dias[0]) {
-                case "Sun":
-                    dias[0] = "domingo";
+        String[] dias = {"domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"};
+
+        /** Números de 0 a 6 */
+        int[] numeros = {0, 1, 2, 3, 4, 5, 6};
+
+        /** Switch Case */
+        for (int i = 0; i < numeros.length; i++) {
+            switch (numeros[i]) {
+                case 0:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
-                case "Mon":
-                    dias[1] = "segunda-feira";
+                case 1:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
-                case "Tue":
-                    dias[2] = "terça-feira";
+                case 2:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
-                case "Wed":
-                    dias[3] = "quarta-feira";
+                case 3:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
-                case "Thu":
-                    dias[4] = "quinta-feira";
+                case 4:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
-                case "Fri":
-                    dias[5] = "sexta-feira";
+                case 5:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
-                case "Sat":
-                    dias[6] = "sábado";
+                case 6:
+                    System.out.println("Dia " + numeros[i] + ": " + dias[i]);
                     break;
                 default:
+                    System.out.println("Dia inválido");
                     break;
             }
-            /** Printa na Tela */
-            System.out.println(dias[0]);
-            System.out.println(dias[1]);
-            System.out.println(dias[2]);
-            System.out.println(dias[3]);
-            System.out.println(dias[4]);
-            System.out.println(dias[5]);
-            System.out.println(dias[6]);
         }
     }
 }
