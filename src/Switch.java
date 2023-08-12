@@ -3,7 +3,7 @@ public class Switch {
         /** Variáveis */
         String[] dias = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
 
-        /** Números de 0 a 6 */
+        /** Lista de Números */
         int[] numeros = {0, 1, 2, 3, 4, 5, 6};
 
         /** Switch Case */
