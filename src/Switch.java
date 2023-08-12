@@ -1,8 +1,9 @@
 public class Switch {
     public static void main(String[] args) {
+        /** Variáveis */
         String[] dias = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
-        {
-            switch (dias) {
+            /** Switch Case */
+            switch (dias[0]) {
                 case "Sun":
                     dias[0] = "domingo";
                     break;
@@ -27,6 +28,7 @@ public class Switch {
                 default:
                     break;
             }
+            /** Printa na Tela */
             System.out.println(dias[0]);
             System.out.println(dias[1]);
             System.out.println(dias[2]);
