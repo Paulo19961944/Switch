@@ -6,13 +6,13 @@ public class Switch {
         /** Lista de Números */
         int[] numeros = {0, 1, 2, 3, 4, 5, 6};
 
-        /** Switch Case */
+        /** Laços de Repetição */
         for (int i = 0; i < numeros.length; i++) {
             
             /** Pega o numero do Dia */
             int numDia = numeros[i];
 
-            /** Laços de Repetiçao */
+            /** Switch Case */
             switch (numeros[i]) {
                 case 0:
                     dias[0] = "Domingo";
